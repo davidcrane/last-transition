@@ -1,0 +1,1042 @@
+﻿Log file open, 05/24/17 18:38:12
+LogInit:Display: Running engine for game: LastTransmission
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1564660507) SRandInit(1564660507).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.114210
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.25-01.38.13:331][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.25-01.38.13:331][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.25-01.38.13:363][  0]LogInit: Computer: DAVID-PC
+[2017.05.25-01.38.13:363][  0]LogInit: User: David
+[2017.05.25-01.38.13:363][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.25-01.38.13:363][  0]LogInit: High frequency timer resolution =3.328126 MHz
+[2017.05.25-01.38.13:363][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.05.25-01.38.13:363][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.25-01.38.13:363][  0]LogMemory: Process Physical Memory: 262.88 MB used, 262.88 MB peak
+[2017.05.25-01.38.13:363][  0]LogMemory: Process Virtual Memory: 262.76 MB used, 262.76 MB peak
+[2017.05.25-01.38.13:363][  0]LogMemory: Physical Memory: 5496.05 MB used,  10847.66 MB free, 16343.71 MB total
+[2017.05.25-01.38.13:363][  0]LogMemory: Virtual Memory: 644.98 MB used,  10847.66 MB free, 134217728.00 MB total
+[2017.05.25-01.38.13:883][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.25-01.38.16:075][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.25-01.38.16:592][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.05.25-01.38.16:592][  0]LogD3D11RHI:       4061/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.25-01.38.16:594][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.25-01.38.16:594][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.25-01.38.16:594][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.25-01.38.16:598][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.25-01.38.16:598][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.25-01.38.16:598][  0]LogWindows: EnumDisplayDevices:
+[2017.05.25-01.38.16:598][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.05.25-01.38.16:598][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2017.05.25-01.38.16:598][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.05.25-01.38.16:599][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.05.25-01.38.16:599][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.25-01.38.16:599][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.05.25-01.38.16:599][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.05.25-01.38.16:599][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.05.25-01.38.16:599][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.25-01.38.17:094][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.25-01.38.17:139][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.25-01.38.17:239][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (C:/Users/David/Desktop/last transition minimap 2/Intermediate/Shaders/WorkingDirectory/5872/).
+[2017.05.25-01.38.17:239][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/BA3014FA470942FC07D12A9A4E632F13/'.
+[2017.05.25-01.38.17:239][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.25-01.38.19:666][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.25-01.38.19:710][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.25-01.38.19:751][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.25-01.38.19:793][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.25-01.38.19:853][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.25-01.38.19:894][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.25-01.38.19:934][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.25-01.38.19:972][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.25-01.38.20:003][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.25-01.38.20:049][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.25-01.38.20:087][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.25-01.38.20:126][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.25-01.38.20:165][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.25-01.38.20:204][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.25-01.38.20:242][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.25-01.38.20:320][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.25-01.38.20:320][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.25-01.38.20:349][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.25-01.38.20:451][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.25-01.38.20:479][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.25-01.38.20:520][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.25-01.38.20:559][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.25-01.38.20:599][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.25-01.38.20:639][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.25-01.38.20:639][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.25-01.38.21:031][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.25-01.38.21:209][  0]LogDerivedDataCache: Loaded boot cache 0.18s 50MB C:/Users/David/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.25-01.38.21:209][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.25-01.38.21:209][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/David/Desktop/last transition minimap 2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.25-01.38.21:209][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.25-01.38.21:209][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/David/Desktop/last transition minimap 2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.25-01.38.21:209][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.25-01.38.21:223][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.25-01.38.21:236][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.25-01.38.21:255][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.25-01.38.21:317][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.25-01.38.21:317][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.25-01.38.21:862][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.25-01.38.21:864][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.25-01.38.22:140][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.25-01.38.22:171][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.25-01.38.22:209][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.25-01.38.22:209][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.25-01.38.22:209][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.25-01.38.23:772][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: lasttransmission, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2719931449
+[2017.05.25-01.38.23:810][  0]LogAssetRegistry: FAssetRegistry took 0.0210 seconds to start up
+[2017.05.25-01.38.23:856][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.029701 seconds
+[2017.05.25-01.38.23:862][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.25-01.38.23:862][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.25-01.38.23:862][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.25-01.38.23:902][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.25-01.38.27:021][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.25-01.38.27:053][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.25-01.38.27:551][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.25-01.38.27:922][  0]SourceControl: Info Source control is disabled
+[2017.05.25-01.38.27:922][  0]SourceControl: Info Source control is disabled
+[2017.05.25-01.38.27:959][  0]SourceControl: Info Source control is disabled
+[2017.05.25-01.38.27:994][  0]SourceControl: Info Source control is disabled
+[2017.05.25-01.38.29:130][  0]LogEngine: Initializing Engine...
+[2017.05.25-01.38.29:131][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.25-01.38.29:354][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.25-01.38.29:354][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.25-01.38.29:547][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.25-01.38.29:560][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.25-01.38.29:586][  0]LogInit: FAudioDevice initialized.
+[2017.05.25-01.38.29:610][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/David/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.25-01.38.29:615][  0]LogInit: Texture streaming: Enabled
+[2017.05.25-01.38.29:674][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.25-01.38.29:772][  0]LogInit: Transaction tracking system initialized
+[2017.05.25-01.38.30:041][  0]BlueprintLog: New page: Editor Load
+[2017.05.25-01.38.30:724][  0]LocalizationService: Info Localization service is disabled
+[2017.05.25-01.38.31:287][  0]LogConsoleResponse:Display: 
+[2017.05.25-01.38.31:587][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.25-01.38.31:587][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.25-01.38.31:802][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Desktop/last transition minimap 2/Content/' took 0.01s
+[2017.05.25-01.38.32:546][  0]SourceControl: Info Source control is disabled
+[2017.05.25-01.38.32:546][  0]Cmd: MAP LOAD FILE="C:/Users/David/Desktop/last transition minimap 2/Content/Maps/Map_Race01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.25-01.38.32:550][  0]LightingResults: New page: Lighting Build
+[2017.05.25-01.38.32:579][  0]MapCheck: New page: Map Check
+[2017.05.25-01.38.32:579][  0]LightingResults: New page: Lighting Build
+[2017.05.25-01.38.33:837][  0]LogAIModule: Creating AISystem for world Map_Race01
+[2017.05.25-01.38.33:917][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.25-01.38.33:920][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.25-01.38.33:981][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.716ms to complete.
+[2017.05.25-01.38.33:981][  0]LogFileHelpers: Loading map 'Map_Race01' took 1.435
+[2017.05.25-01.38.34:277][  0]LogCollectionManager: Loaded 0 collections in 0.001296 seconds
+[2017.05.25-01.38.34:362][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Desktop/last transition minimap 2/Saved/Collections/' took 0.01s
+[2017.05.25-01.38.34:362][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Desktop/last transition minimap 2/Content/Developers/David/Collections/' took 0.01s
+[2017.05.25-01.38.34:362][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Desktop/last transition minimap 2/Content/Collections/' took 0.01s
+[2017.05.25-01.38.34:362][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.05.25-01.38.34:370][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2247 classes and 456 folders.
+[2017.05.25-01.38.34:415][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.05.25-01.38.34:997][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.05.25-01.38.35:028][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.05.25-01.38.35:111][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.25-01.38.35:116][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.25-01.38.35:171][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.05.25-01.38.35:171][  0]LogLoad: (Engine Initialization) Total time: 24.80 seconds
+[2017.05.25-01.38.35:171][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.24 seconds
+[2017.05.25-01.38.35:171][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.05.25-01.38.35:511][  0]LogOcInput: OculusInput pre-init called
+[2017.05.25-01.38.35:512][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.05.25-01.38.35:512][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.05.25-01.38.35:512][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1
+[2017.05.25-01.38.35:529][  0]LogAssetRegistry: Asset discovery search completed in 11.7399 seconds
+[2017.05.25-01.38.35:529][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.05.25-01.38.35:529][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2017.05.25-01.38.35:540][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.25-01.38.35:600][  0]LogSlate: Took 0.013206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.25-01.38.35:614][  0]LogSlate: Took 0.011397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.25-01.38.35:628][  0]LogSlate: Took 0.010421 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.25-01.38.35:786][  0]LogRenderer: Reallocating scene render targets to support 1012x568 NumSamples 1 (Frame:2).
+[2017.05.25-01.38.40:123][344]LogRenderer: Reallocating scene render targets to support 1468x820 NumSamples 1 (Frame:13).
+[2017.05.25-01.38.47:276][160]LogSlate: Took 0.004275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.25-02.26.42:484][637]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.25-02.26.42:809][637]LogAIModule: Creating AISystem for world map_kayla_blockout
+[2017.05.25-02.26.42:843][637]Cmd: MAP LOAD FILE="C:/Users/David/Desktop/last transition minimap 2/Content/Maps/map_kayla_blockout.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.25-02.26.42:843][637]LightingResults: New page: Lighting Build
+[2017.05.25-02.26.42:845][637]LoadErrors: New page: Loading map: map_kayla_blockout.umap
+[2017.05.25-02.26.42:846][637]MapCheck: New page: Map Check
+[2017.05.25-02.26.42:846][637]LightingResults: New page: Lighting Build
+[2017.05.25-02.26.42:903][637]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.25-02.26.42:920][637]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.25-02.26.42:971][637]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.964ms to complete.
+[2017.05.25-02.26.42:971][637]LogFileHelpers: Loading map 'map_kayla_blockout' took 0.128
+[2017.05.25-02.38.15:155][624]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/Quarter 7/Team production planning/Prototype Level Design/SM_GarageBlockout.fbx)
+[2017.05.25-02.38.15:252][624]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.25-02.38.15:252][624]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.05.25-02.38.15:252][624]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.05.25-02.38.15:252][624]LogFbx: ItemName: NodeAttribute, ItemCount : 32
+[2017.05.25-02.38.15:252][624]LogFbx: ItemName: Model, ItemCount : 33
+[2017.05.25-02.38.15:252][624]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.05.25-02.38.15:252][624]LogFbx: ItemName: Material, ItemCount : 1
+[2017.05.25-02.38.15:252][624]LogFbx: ItemName: CollectionExclusive, ItemCount : 3
+[2017.05.25-02.38.15:259][624]LogFbx: Loading FBX Scene from F:/Quarter 7/Team production planning/Prototype Level Design/SM_GarageBlockout.fbx
+[2017.05.25-02.38.15:272][624]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.25-02.38.16:979][624]LogFbx: Loading FBX Scene from F:/Quarter 7/Team production planning/Prototype Level Design/SM_GarageBlockout.fbx
+[2017.05.25-02.38.16:989][624]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.25-02.38.16:994][624]LogStaticMesh: Building static mesh SM_GarageBlockout...
+[2017.05.25-02.38.17:003][624]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/K_Buildings01/SM_GarageBlockout.SM_GarageBlockout
+[2017.05.25-02.38.17:029][624]LogStaticMesh:Warning: SM_GarageBlockout has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.05.25-02.38.17:037][624]FBXImport:Warning: Warning SM_GarageBlockout has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.05.25-02.38.20:174][949]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/map_kayla_blockout' took 0.007
+[2017.05.25-02.38.20:175][949]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/K_Buildings01/SM_GarageBlockout] ([1] browsable assets)...
+[2017.05.25-02.38.20:188][949]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/K_Buildings01/SM_GarageBlockout.SM_GarageBlockout]
+[2017.05.25-02.38.20:188][949]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/K_Buildings01/SM_GarageBlockout]
+[2017.05.25-02.38.20:201][949]LogSavePackage: Save=11.41ms
+[2017.05.25-02.38.20:201][949]LogSavePackage: Moving 'C:/Users/David/Desktop/last transition minimap 2/Saved/SM_GarageBlockout_Auto14458CF8F4CB8AD63E4944CA7A8B3EB91.tmp' to 'C:/Users/David/Desktop/last transition minimap 2/Saved/Autosaves/Game/Assets/K_Buildings01/SM_GarageBlockout_Auto1.uasset'
+[2017.05.25-02.38.20:202][949]LogSavePackage:Display: Finished SavePackage C:/Users/David/Desktop/last transition minimap 2/Saved/Autosaves/Game/Assets/K_Buildings01/SM_GarageBlockout_Auto1.uasset
+[2017.05.25-02.38.20:202][949]LogFileHelpers: Auto-saving content packages took 0.027
+[2017.05.25-02.38.28:072][857]LogActorFactory: Actor Factory created SM_GarageBlockout
+[2017.05.25-02.38.28:966][963]LogActorFactory: Actor Factory created SM_GarageBlockout
+[2017.05.25-02.38.29:398][ 13]LogActorFactory: Actor Factory created SM_GarageBlockout
+[2017.05.25-02.40.24:155][183]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/Quarter 7/Team production planning/Prototype Level Design/SM_GarageBlockout.fbx)
+[2017.05.25-02.40.24:159][183]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.25-02.40.24:159][183]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.05.25-02.40.24:159][183]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.05.25-02.40.24:159][183]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.05.25-02.40.24:159][183]LogFbx: ItemName: Material, ItemCount : 1
+[2017.05.25-02.40.24:159][183]LogFbx: ItemName: Model, ItemCount : 1
+[2017.05.25-02.40.24:159][183]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2017.05.25-02.40.24:164][183]LogFbx: Loading FBX Scene from F:/Quarter 7/Team production planning/Prototype Level Design/SM_GarageBlockout.fbx
+[2017.05.25-02.40.24:169][183]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.25-02.40.25:589][183]LogFbx: Loading FBX Scene from F:/Quarter 7/Team production planning/Prototype Level Design/SM_GarageBlockout.fbx
+[2017.05.25-02.40.25:594][183]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.25-02.40.25:598][183]LogStaticMesh: Building static mesh SM_GarageBlockout...
+[2017.05.25-02.40.25:606][183]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/K_Buildings01/SM_GarageBlockout.SM_GarageBlockout
+[2017.05.25-02.40.25:607][183]LogStaticMesh:Warning: SM_GarageBlockout has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.05.25-02.40.25:610][183]FBXImport:Warning: Warning SM_GarageBlockout has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.05.25-02.40.28:316][481]LogActorFactory: Actor Factory created SM_GarageBlockout
+[2017.05.25-02.40.29:073][567]LogActorFactory: Actor Factory created SM_GarageBlockout
+[2017.05.25-02.40.33:774][111]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.25-02.40.34:165][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GarageBlockout2)
+[2017.05.25-02.40.45:235][450]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.25-02.41.04:898][780]LogStaticMesh: Building static mesh SM_Foundation02...
+[2017.05.25-02.41.04:911][780]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/K_Buildings01/SM_Foundation02.SM_Foundation02
+[2017.05.25-02.41.05:102][801]LogActorFactory: Actor Factory created SM_Foundation02
+[2017.05.25-02.41.06:710][991]LogActorFactory: Actor Factory created SM_Foundation02
+[2017.05.25-02.41.07:929][129]Cmd: DELETE
+[2017.05.25-02.41.07:929][129]Cmd: ACTOR DELETE
+[2017.05.25-02.41.07:930][129]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.25-02.41.07:937][129]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.05.25-02.41.12:611][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GarageBlockout2)
+[2017.05.25-02.41.14:392][894]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GarageBlockout2)
+[2017.05.25-02.41.14:785][940]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2017.05.25-02.41.35:405][355]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-02.41.35:416][355]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.41.35:416][355]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-02.41.35:476][355]PIE: New page: PIE session: map_kayla_blockout (May 24, 2017, 12:41:35 PM)
+[2017.05.25-02.41.35:476][355]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_map_kayla_blockout
+[2017.05.25-02.41.35:512][355]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036123s)
+[2017.05.25-02.41.35:512][355]LogAIModule: Creating AISystem for world map_kayla_blockout
+[2017.05.25-02.41.35:513][355]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2017.05.25-02.41.35:513][355]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map_kayla_blockout.map_kayla_blockout to /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout (0.037216s)
+[2017.05.25-02.41.35:528][355]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.25-02.41.35:553][355]LogInit: FAudioDevice initialized.
+[2017.05.25-02.41.35:649][355]LogLoad: Game class is 'GM_Main_C'
+[2017.05.25-02.41.35:724][355]LogWorld: Bringing World /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout up for play (max tick rate 0) at 2017.05.24-19.41.35
+[2017.05.25-02.41.35:749][355]LogWorld: Bringing up level for play took: 0.035435
+[2017.05.25-02.41.35:750][355]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.05.25-02.41.35:790][355]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.05.25-02.41.35:794][355]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_map_kayla_blockout 1.038
+[2017.05.25-02.41.35:795][355]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.41.36:422][423]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.41.36:490][423]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.41.37:594][544]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.05.25-02.41.50:430][ 50]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.25-02.41.51:863][220]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.25-02.41.51:926][226]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.25-02.41.55:199][607]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.25-02.41.56:908][808]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.25-02.41.58:548][  1]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.25-02.42.06:358][934]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.25-02.42.07:962][124]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-02.42.07:971][124]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.42.07:971][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-02.42.07:971][124]PIE: New page: PIE session: map_kayla_blockout (May 24, 2017, 12:42:07 PM)
+[2017.05.25-02.42.07:971][124]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_map_kayla_blockout
+[2017.05.25-02.42.08:000][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029433s)
+[2017.05.25-02.42.08:001][124]LogAIModule: Creating AISystem for world map_kayla_blockout
+[2017.05.25-02.42.08:001][124]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2017.05.25-02.42.08:001][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map_kayla_blockout.map_kayla_blockout to /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout (0.030337s)
+[2017.05.25-02.42.08:015][124]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.25-02.42.08:039][124]LogInit: FAudioDevice initialized.
+[2017.05.25-02.42.08:069][124]LogLoad: Game class is 'GM_Main_C'
+[2017.05.25-02.42.08:083][124]LogWorld: Bringing World /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout up for play (max tick rate 0) at 2017.05.24-19.42.08
+[2017.05.25-02.42.08:083][124]LogWorld: Bringing up level for play took: 0.009781
+[2017.05.25-02.42.08:083][124]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.05.25-02.42.08:084][124]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-10180.000 Y=-2170.000 Z=2082.001] for [BP_RabbitTeeth_C]
+[2017.05.25-02.42.08:084][124]LogGameMode:Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_RabbitTeeth_C at Rotation: 0.000000 -0.000000 0.707107 0.707107
+Translation: -10180.000000 -2170.000000 2082.000732
+Scale3D: 1.000000 1.000000 1.000000
+
+[2017.05.25-02.42.08:085][124]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_map_kayla_blockout -0.671
+[2017.05.25-02.42.08:085][124]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.42.09:818][326]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.42.09:858][326]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.42.12:807][667]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.25-02.42.13:197][708]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GarageBlockout2)
+[2017.05.25-02.42.14:388][841]LogSlate: Took 0.022581 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.25-02.42.17:684][220]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.25-02.42.17:693][220]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.05.25-02.43.24:622][829]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-02.43.24:631][829]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.43.24:631][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-02.43.24:631][829]PIE: New page: PIE session: map_kayla_blockout (May 24, 2017, 12:43:24 PM)
+[2017.05.25-02.43.24:631][829]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_map_kayla_blockout
+[2017.05.25-02.43.24:659][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027546s)
+[2017.05.25-02.43.24:659][829]LogAIModule: Creating AISystem for world map_kayla_blockout
+[2017.05.25-02.43.24:660][829]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2017.05.25-02.43.24:660][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map_kayla_blockout.map_kayla_blockout to /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout (0.028583s)
+[2017.05.25-02.43.24:672][829]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.25-02.43.24:694][829]LogInit: FAudioDevice initialized.
+[2017.05.25-02.43.24:723][829]LogLoad: Game class is 'GM_Main_C'
+[2017.05.25-02.43.24:737][829]LogWorld: Bringing World /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout up for play (max tick rate 0) at 2017.05.24-19.43.24
+[2017.05.25-02.43.24:737][829]LogWorld: Bringing up level for play took: 0.009497
+[2017.05.25-02.43.24:737][829]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.05.25-02.43.24:739][829]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_map_kayla_blockout -0.017
+[2017.05.25-02.43.24:739][829]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.43.26:946][ 88]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.43.27:008][ 88]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.43.31:883][655]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.05.25-02.43.33:318][821]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.25-02.43.33:876][887]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-02.43.33:885][887]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.43.33:885][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-02.43.33:885][887]PIE: New page: PIE session: map_kayla_blockout (May 24, 2017, 12:43:33 PM)
+[2017.05.25-02.43.33:885][887]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_map_kayla_blockout
+[2017.05.25-02.43.33:913][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027859s)
+[2017.05.25-02.43.33:913][887]LogAIModule: Creating AISystem for world map_kayla_blockout
+[2017.05.25-02.43.33:913][887]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2017.05.25-02.43.33:913][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map_kayla_blockout.map_kayla_blockout to /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout (0.028728s)
+[2017.05.25-02.43.33:926][887]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.25-02.43.33:949][887]LogInit: FAudioDevice initialized.
+[2017.05.25-02.43.33:984][887]LogLoad: Game class is 'GM_Main_C'
+[2017.05.25-02.43.33:998][887]LogWorld: Bringing World /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout up for play (max tick rate 0) at 2017.05.24-19.43.33
+[2017.05.25-02.43.33:998][887]LogWorld: Bringing up level for play took: 0.009849
+[2017.05.25-02.43.33:999][887]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.05.25-02.43.34:000][887]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_map_kayla_blockout -0.756
+[2017.05.25-02.43.34:001][887]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.43.35:315][ 39]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.43.35:356][ 39]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.43.38:642][423]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.05.25-02.43.39:545][529]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.25-02.43.40:397][630]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.25-02.43.41:052][707]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-02.43.41:060][707]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.43.41:060][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-02.43.41:061][707]PIE: New page: PIE session: map_kayla_blockout (May 24, 2017, 12:43:41 PM)
+[2017.05.25-02.43.41:061][707]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_map_kayla_blockout
+[2017.05.25-02.43.41:094][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033435s)
+[2017.05.25-02.43.41:095][707]LogAIModule: Creating AISystem for world map_kayla_blockout
+[2017.05.25-02.43.41:095][707]LogPlayLevel: PIE: World Init took: (0.000661s)
+[2017.05.25-02.43.41:095][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map_kayla_blockout.map_kayla_blockout to /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout (0.034405s)
+[2017.05.25-02.43.41:108][707]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.25-02.43.41:131][707]LogInit: FAudioDevice initialized.
+[2017.05.25-02.43.41:157][707]LogLoad: Game class is 'GM_Main_C'
+[2017.05.25-02.43.41:172][707]LogWorld: Bringing World /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout up for play (max tick rate 0) at 2017.05.24-19.43.41
+[2017.05.25-02.43.41:172][707]LogWorld: Bringing up level for play took: 0.009689
+[2017.05.25-02.43.41:172][707]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.05.25-02.43.41:174][707]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_map_kayla_blockout 0.418
+[2017.05.25-02.43.41:174][707]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.43.50:066][768]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.43.50:111][768]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.43.52:506][ 43]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GarageBlockout2)
+[2017.05.25-02.48.28:612][840]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.25-02.48.38:351][868]LogSavePackage: Save=371.00ms
+[2017.05.25-02.48.38:351][868]LogSavePackage: Moving 'C:/Users/David/Desktop/last transition minimap 2/Saved/map_kayla_blockout_Auto2F88ECF7644FF02B8465436914E917FA2.tmp' to 'C:/Users/David/Desktop/last transition minimap 2/Saved/Autosaves/Game/Maps/map_kayla_blockout_Auto2.umap'
+[2017.05.25-02.48.38:353][868]LogSavePackage:Display: Finished SavePackage C:/Users/David/Desktop/last transition minimap 2/Saved/Autosaves/Game/Maps/map_kayla_blockout_Auto2.umap
+[2017.05.25-02.48.38:354][868]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/map_kayla_blockout' took 0.391
+[2017.05.25-02.48.38:354][868]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.391
+[2017.05.25-02.51.06:236][159]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2017.05.25-02.51.06:644][202]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.05.25-02.51.12:399][572]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/Quarter 7/Team production planning/Prototype Level Design/SM_GarageBlockout.fbx)
+[2017.05.25-02.51.12:403][572]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.25-02.51.12:403][572]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.05.25-02.51.12:403][572]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.05.25-02.51.12:403][572]LogFbx: ItemName: NodeAttribute, ItemCount : 52
+[2017.05.25-02.51.12:403][572]LogFbx: ItemName: Model, ItemCount : 53
+[2017.05.25-02.51.12:403][572]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.05.25-02.51.12:403][572]LogFbx: ItemName: Material, ItemCount : 1
+[2017.05.25-02.51.12:403][572]LogFbx: ItemName: CollectionExclusive, ItemCount : 2
+[2017.05.25-02.51.12:408][572]LogFbx: Loading FBX Scene from F:/Quarter 7/Team production planning/Prototype Level Design/SM_GarageBlockout.fbx
+[2017.05.25-02.51.12:423][572]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.25-02.51.14:470][572]LogFbx: Loading FBX Scene from F:/Quarter 7/Team production planning/Prototype Level Design/SM_GarageBlockout.fbx
+[2017.05.25-02.51.14:484][572]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.25-02.51.14:488][572]LogStaticMesh: Building static mesh SM_GarageBlockout...
+[2017.05.25-02.51.14:499][572]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/K_Buildings01/SM_GarageBlockout.SM_GarageBlockout
+[2017.05.25-02.51.14:499][572]LogStaticMesh:Warning: SM_GarageBlockout has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.05.25-02.51.14:505][572]FBXImport:Warning: Warning SM_GarageBlockout has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.05.25-02.51.18:092][959]LogActorFactory: Actor Factory created SM_GarageBlockout
+[2017.05.25-02.51.18:903][ 53]LogActorFactory: Actor Factory created SM_GarageBlockout
+[2017.05.25-02.51.37:733][282]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.25-02.51.47:040][381]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2017.05.25-02.51.47:918][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GarageBlockout)
+[2017.05.25-02.52.06:410][676]LogEditorViewport: Clicking on Actor (LMB): BP_RoadSpline_C (BP_RoadSpline3)
+[2017.05.25-02.52.09:553][ 46]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GarageBlockout)
+[2017.05.25-02.52.10:143][109]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2017.05.25-02.52.15:459][737]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-02.52.15:470][737]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.52.15:470][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-02.52.15:470][737]PIE: New page: PIE session: map_kayla_blockout (May 24, 2017, 12:52:15 PM)
+[2017.05.25-02.52.15:470][737]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_map_kayla_blockout
+[2017.05.25-02.52.15:499][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028809s)
+[2017.05.25-02.52.15:499][737]LogAIModule: Creating AISystem for world map_kayla_blockout
+[2017.05.25-02.52.15:500][737]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2017.05.25-02.52.15:500][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map_kayla_blockout.map_kayla_blockout to /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout (0.030076s)
+[2017.05.25-02.52.15:511][737]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.25-02.52.15:535][737]LogInit: FAudioDevice initialized.
+[2017.05.25-02.52.15:563][737]LogLoad: Game class is 'GM_Main_C'
+[2017.05.25-02.52.15:579][737]LogWorld: Bringing World /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout up for play (max tick rate 0) at 2017.05.24-19.52.15
+[2017.05.25-02.52.15:579][737]LogWorld: Bringing up level for play took: 0.009918
+[2017.05.25-02.52.15:580][737]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.05.25-02.52.15:581][737]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_map_kayla_blockout 0.825
+[2017.05.25-02.52.15:582][737]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.52.18:059][ 28]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.52.18:104][ 28]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.55.00:680][801]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/Quarter 7/Team production planning/Prototype Level Design/SM_Garage_Ramp.fbx)
+[2017.05.25-02.55.00:685][801]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.25-02.55.00:685][801]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.05.25-02.55.00:685][801]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.05.25-02.55.00:685][801]LogFbx: ItemName: NodeAttribute, ItemCount : 72
+[2017.05.25-02.55.00:685][801]LogFbx: ItemName: Model, ItemCount : 73
+[2017.05.25-02.55.00:685][801]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.05.25-02.55.00:685][801]LogFbx: ItemName: Material, ItemCount : 1
+[2017.05.25-02.55.00:685][801]LogFbx: ItemName: CollectionExclusive, ItemCount : 2
+[2017.05.25-02.55.00:689][801]LogFbx: Loading FBX Scene from F:/Quarter 7/Team production planning/Prototype Level Design/SM_Garage_Ramp.fbx
+[2017.05.25-02.55.00:706][801]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.25-02.55.01:978][801]LogFbx: Loading FBX Scene from F:/Quarter 7/Team production planning/Prototype Level Design/SM_Garage_Ramp.fbx
+[2017.05.25-02.55.01:994][801]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.25-02.55.01:998][801]LogStaticMesh: Building static mesh SM_Garage_Ramp...
+[2017.05.25-02.55.02:007][801]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/K_Buildings01/SM_Garage_Ramp.SM_Garage_Ramp
+[2017.05.25-02.55.03:256][919]LogActorFactory: Actor Factory created SM_Garage_Ramp
+[2017.05.25-02.55.04:010][  8]LogActorFactory: Actor Factory created SM_Garage_Ramp
+[2017.05.25-02.55.26:254][618]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.25-02.55.31:775][270]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.25-02.55.32:589][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Garage_Ramp)
+[2017.05.25-02.55.40:164][255]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.25-02.55.40:877][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Garage_Ramp)
+[2017.05.25-02.55.45:944][921]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.25-02.55.46:320][960]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Garage_Ramp)
+[2017.05.25-02.55.56:663][188]LogEditorViewport: Clicking on Actor (LMB): BP_RoadSpline_C (BP_RoadSpline3)
+[2017.05.25-02.55.57:290][257]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2017.05.25-02.56.05:025][168]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.25-02.56.06:079][293]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.25-02.56.08:319][559]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.25-02.56.09:277][672]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.25-02.56.10:177][779]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.25-02.56.11:505][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Garage_Ramp)
+[2017.05.25-02.56.43:728][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/K_Buildings01/SM_Garage_Ramp" FILE="C:/Users/David/Desktop/last transition minimap 2/Content/Assets/K_Buildings01/SM_Garage_Ramp.uasset" SILENT=true
+[2017.05.25-02.56.43:740][529]LogSavePackage: Save=11.29ms
+[2017.05.25-02.56.43:741][529]LogSavePackage: Moving 'C:/Users/David/Desktop/last transition minimap 2/Saved/SM_Garage_Ramp7B056EDE4C33D123532B8E83A1A9302A.tmp' to 'C:/Users/David/Desktop/last transition minimap 2/Content/Assets/K_Buildings01/SM_Garage_Ramp.uasset'
+[2017.05.25-02.56.43:743][529]LogSavePackage:Display: Finished SavePackage C:/Users/David/Desktop/last transition minimap 2/Content/Assets/K_Buildings01/SM_Garage_Ramp.uasset
+[2017.05.25-02.56.46:706][864]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-02.56.46:714][864]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.56.46:714][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-02.56.46:715][864]PIE: New page: PIE session: map_kayla_blockout (May 24, 2017, 12:56:46 PM)
+[2017.05.25-02.56.46:715][864]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_map_kayla_blockout
+[2017.05.25-02.56.46:744][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029551s)
+[2017.05.25-02.56.46:745][864]LogAIModule: Creating AISystem for world map_kayla_blockout
+[2017.05.25-02.56.46:745][864]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2017.05.25-02.56.46:745][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map_kayla_blockout.map_kayla_blockout to /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout (0.030501s)
+[2017.05.25-02.56.46:757][864]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.25-02.56.46:779][864]LogInit: FAudioDevice initialized.
+[2017.05.25-02.56.46:809][864]LogLoad: Game class is 'GM_Main_C'
+[2017.05.25-02.56.46:824][864]LogWorld: Bringing World /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout up for play (max tick rate 0) at 2017.05.24-19.56.46
+[2017.05.25-02.56.46:825][864]LogWorld: Bringing up level for play took: 0.009764
+[2017.05.25-02.56.46:825][864]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.05.25-02.56.46:827][864]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_map_kayla_blockout 0.071
+[2017.05.25-02.56.46:827][864]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.57.23:047][204]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.57.23:107][204]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.57.23:675][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Garage_Ramp)
+[2017.05.25-02.57.28:248][771]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-02.57.28:257][771]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.57.28:257][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-02.57.28:258][771]PIE: New page: PIE session: map_kayla_blockout (May 24, 2017, 12:57:28 PM)
+[2017.05.25-02.57.28:258][771]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_map_kayla_blockout
+[2017.05.25-02.57.28:288][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030745s)
+[2017.05.25-02.57.28:289][771]LogAIModule: Creating AISystem for world map_kayla_blockout
+[2017.05.25-02.57.28:289][771]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2017.05.25-02.57.28:290][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map_kayla_blockout.map_kayla_blockout to /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout (0.031991s)
+[2017.05.25-02.57.28:303][771]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.25-02.57.28:325][771]LogInit: FAudioDevice initialized.
+[2017.05.25-02.57.28:355][771]LogLoad: Game class is 'GM_Main_C'
+[2017.05.25-02.57.28:371][771]LogWorld: Bringing World /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout up for play (max tick rate 0) at 2017.05.24-19.57.28
+[2017.05.25-02.57.28:371][771]LogWorld: Bringing up level for play took: 0.010648
+[2017.05.25-02.57.28:372][771]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.05.25-02.57.28:373][771]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_map_kayla_blockout -0.383
+[2017.05.25-02.57.28:373][771]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.57.31:516][139]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.57.31:575][139]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.57.32:953][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Garage_Ramp)
+[2017.05.25-02.58.14:944][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/K_Buildings01/SM_Garage_Ramp" FILE="C:/Users/David/Desktop/last transition minimap 2/Content/Assets/K_Buildings01/SM_Garage_Ramp.uasset" SILENT=true
+[2017.05.25-02.58.14:962][602]LogSavePackage: Save=13.55ms
+[2017.05.25-02.58.14:962][602]LogSavePackage: Moving 'C:/Users/David/Desktop/last transition minimap 2/Saved/SM_Garage_RampB2FA0DF54A42A0EBE5BBAD9AA40C77D3.tmp' to 'C:/Users/David/Desktop/last transition minimap 2/Content/Assets/K_Buildings01/SM_Garage_Ramp.uasset'
+[2017.05.25-02.58.14:965][602]LogSavePackage:Display: Finished SavePackage C:/Users/David/Desktop/last transition minimap 2/Content/Assets/K_Buildings01/SM_Garage_Ramp.uasset
+[2017.05.25-02.58.19:196][ 84]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-02.58.19:205][ 84]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.58.19:205][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-02.58.19:205][ 84]PIE: New page: PIE session: map_kayla_blockout (May 24, 2017, 12:58:19 PM)
+[2017.05.25-02.58.19:205][ 84]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_map_kayla_blockout
+[2017.05.25-02.58.19:234][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028748s)
+[2017.05.25-02.58.19:234][ 84]LogAIModule: Creating AISystem for world map_kayla_blockout
+[2017.05.25-02.58.19:234][ 84]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2017.05.25-02.58.19:235][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map_kayla_blockout.map_kayla_blockout to /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout (0.029766s)
+[2017.05.25-02.58.19:246][ 84]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.25-02.58.19:269][ 84]LogInit: FAudioDevice initialized.
+[2017.05.25-02.58.19:301][ 84]LogLoad: Game class is 'GM_Main_C'
+[2017.05.25-02.58.19:316][ 84]LogWorld: Bringing World /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout up for play (max tick rate 0) at 2017.05.24-19.58.19
+[2017.05.25-02.58.19:317][ 84]LogWorld: Bringing up level for play took: 0.009672
+[2017.05.25-02.58.19:318][ 84]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.05.25-02.58.19:320][ 84]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_map_kayla_blockout 0.563
+[2017.05.25-02.58.19:320][ 84]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.59.22:100][610]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.59.22:164][610]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-02.59.26:753][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Garage_Ramp)
+[2017.05.25-02.59.29:733][444]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Garage_Ramp)
+[2017.05.25-02.59.46:244][ 21]LogMaterial: Missing cached shader map for material GarageRamp_PH, compiling. 
+[2017.05.25-02.59.46:244][ 21]LogTemp:Display: Added material ShaderMap 0x00000255C660FC80 with Material 0x00000255F315B380 to ShaderMapsBeingCompiled
+[2017.05.25-02.59.46:259][ 21]LogTemp:Display: Kicking off shader compilation for GarageRamp_PH, GameThreadShaderMap 0x00000255C660FC80
+[2017.05.25-02.59.46:319][ 21]LogMaterial: Missing cached shader map for material GarageRamp_PH, compiling. 
+[2017.05.25-02.59.46:320][ 21]LogTemp:Display: Added material ShaderMap 0x00000255B920E080 with Material 0x00000255F315B380 to ShaderMapsBeingCompiled
+[2017.05.25-02.59.46:327][ 21]LogTemp:Display: Kicking off shader compilation for GarageRamp_PH, GameThreadShaderMap 0x00000255B920E080
+[2017.05.25-02.59.46:327][ 21]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.25-02.59.46:425][ 21]LogSlate: Took 0.064248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.25-02.59.47:239][ 63]LogTemp:Display: Finished compile of shader map 0x00000255B920E080
+[2017.05.25-02.59.47:239][ 63]LogTemp:Display: Shader map GarageRamp_PH complete, GameThreadShaderMap 0x00000255B920E080, marking material GarageRamp_PH as finished
+[2017.05.25-02.59.47:239][ 63]LogTemp:Display: Marking material as finished 0x00000255F315B380
+[2017.05.25-02.59.54:364][849]LogMaterial: Missing cached shader map for material GarageRamp_PH, compiling. 
+[2017.05.25-02.59.54:365][849]LogTemp:Display: Added material ShaderMap 0x0000025604D1E780 with Material 0x00000255F315B380 to ShaderMapsBeingCompiled
+[2017.05.25-02.59.54:372][849]LogTemp:Display: Kicking off shader compilation for GarageRamp_PH, GameThreadShaderMap 0x0000025604D1E780
+[2017.05.25-02.59.54:372][849]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.25-02.59.54:373][849]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.25-02.59.54:373][849]LogTemp:Display: Added material ShaderMap 0x0000025606EC5D00 with Material 0x0000025581F39000 to ShaderMapsBeingCompiled
+[2017.05.25-02.59.54:375][849]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x0000025606EC5D00
+[2017.05.25-02.59.54:377][849]LogMaterial: Missing cached shader map for material GarageRamp_PH, compiling. 
+[2017.05.25-02.59.54:378][849]LogTemp:Display: Added material ShaderMap 0x0000025606EC4800 with Material 0x00000255F315B380 to ShaderMapsBeingCompiled
+[2017.05.25-02.59.54:385][849]LogTemp:Display: Kicking off shader compilation for GarageRamp_PH, GameThreadShaderMap 0x0000025606EC4800
+[2017.05.25-02.59.54:386][849]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.25-02.59.54:390][849]LogTemp:Display: Removed shader map 0x0000025606EC5D00 from material 0x0000025581F39000
+[2017.05.25-02.59.54:412][849]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.25-02.59.54:413][849]LogTemp:Display: Added material ShaderMap 0x0000025604A1C800 with Material 0x0000025587FAEE00 to ShaderMapsBeingCompiled
+[2017.05.25-02.59.54:415][849]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x0000025604A1C800
+[2017.05.25-02.59.54:562][859]LogTemp:Display: Finished compile of shader map 0x0000025604D1E780
+[2017.05.25-02.59.54:563][859]LogTemp:Display: Shader map GarageRamp_PH complete, GameThreadShaderMap 0x0000025604D1E780, marking material GarageRamp_PH as finished
+[2017.05.25-02.59.54:563][859]LogTemp:Display: Marking material as finished 0x00000255F315B380
+[2017.05.25-02.59.55:158][911]LogTemp:Display: Finished compile of shader map 0x0000025606EC4800
+[2017.05.25-02.59.55:158][911]LogTemp:Display: Shader map GarageRamp_PH complete, GameThreadShaderMap 0x0000025606EC4800, marking material GarageRamp_PH as finished
+[2017.05.25-02.59.55:158][911]LogTemp:Display: Marking material as finished 0x00000255F315B380
+[2017.05.25-02.59.55:199][915]LogTemp:Display: Finished compile of shader map 0x0000025604A1C800
+[2017.05.25-02.59.55:199][915]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x0000025604A1C800, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.25-02.59.55:199][915]LogTemp:Display: Marking material as finished 0x0000025587FAEE00
+[2017.05.25-02.59.59:207][365]LogMaterial: Missing cached shader map for material GarageRamp_PH, compiling. 
+[2017.05.25-02.59.59:207][365]LogTemp:Display: Added material ShaderMap 0x0000025600002400 with Material 0x00000255F315B380 to ShaderMapsBeingCompiled
+[2017.05.25-02.59.59:214][365]LogTemp:Display: Kicking off shader compilation for GarageRamp_PH, GameThreadShaderMap 0x0000025600002400
+[2017.05.25-02.59.59:215][365]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.25-02.59.59:242][365]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.25-02.59.59:243][365]LogTemp:Display: Added material ShaderMap 0x00000255EC28EE80 with Material 0x0000025606CADF00 to ShaderMapsBeingCompiled
+[2017.05.25-02.59.59:245][365]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x00000255EC28EE80
+[2017.05.25-02.59.59:863][417]LogTemp:Display: Finished compile of shader map 0x0000025600002400
+[2017.05.25-02.59.59:863][417]LogTemp:Display: Shader map GarageRamp_PH complete, GameThreadShaderMap 0x0000025600002400, marking material GarageRamp_PH as finished
+[2017.05.25-02.59.59:863][417]LogTemp:Display: Marking material as finished 0x00000255F315B380
+[2017.05.25-02.59.59:919][422]LogTemp:Display: Finished compile of shader map 0x00000255EC28EE80
+[2017.05.25-02.59.59:919][422]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x00000255EC28EE80, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.25-02.59.59:919][422]LogTemp:Display: Marking material as finished 0x0000025606CADF00
+[2017.05.25-03.00.01:262][569]LogMaterial: Missing cached shader map for material GarageRamp_PH, compiling. 
+[2017.05.25-03.00.01:262][569]LogTemp:Display: Added material ShaderMap 0x00000255B5D54B80 with Material 0x00000255F315B380 to ShaderMapsBeingCompiled
+[2017.05.25-03.00.01:270][569]LogTemp:Display: Kicking off shader compilation for GarageRamp_PH, GameThreadShaderMap 0x00000255B5D54B80
+[2017.05.25-03.00.01:270][569]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.25-03.00.01:300][569]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.25-03.00.01:301][569]LogTemp:Display: Added material ShaderMap 0x00000255F1C19D00 with Material 0x00000255C665BD00 to ShaderMapsBeingCompiled
+[2017.05.25-03.00.01:303][569]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x00000255F1C19D00
+[2017.05.25-03.00.01:948][621]LogTemp:Display: Finished compile of shader map 0x00000255B5D54B80
+[2017.05.25-03.00.01:949][621]LogTemp:Display: Shader map GarageRamp_PH complete, GameThreadShaderMap 0x00000255B5D54B80, marking material GarageRamp_PH as finished
+[2017.05.25-03.00.01:949][621]LogTemp:Display: Marking material as finished 0x00000255F315B380
+[2017.05.25-03.00.02:003][626]LogTemp:Display: Finished compile of shader map 0x00000255F1C19D00
+[2017.05.25-03.00.02:003][626]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x00000255F1C19D00, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.25-03.00.02:003][626]LogTemp:Display: Marking material as finished 0x00000255C665BD00
+[2017.05.25-03.00.04:795][919]LogMaterial: Missing cached shader map for material GarageRamp_PH, compiling. 
+[2017.05.25-03.00.04:796][919]LogTemp:Display: Added material ShaderMap 0x00000255F354AB00 with Material 0x00000255F315B380 to ShaderMapsBeingCompiled
+[2017.05.25-03.00.04:804][919]LogTemp:Display: Kicking off shader compilation for GarageRamp_PH, GameThreadShaderMap 0x00000255F354AB00
+[2017.05.25-03.00.04:804][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.25-03.00.04:833][919]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.25-03.00.04:834][919]LogTemp:Display: Added material ShaderMap 0x000002559B7F7580 with Material 0x00000255A5943700 to ShaderMapsBeingCompiled
+[2017.05.25-03.00.04:836][919]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000002559B7F7580
+[2017.05.25-03.00.05:428][968]LogTemp:Display: Finished compile of shader map 0x00000255F354AB00
+[2017.05.25-03.00.05:428][968]LogTemp:Display: Shader map GarageRamp_PH complete, GameThreadShaderMap 0x00000255F354AB00, marking material GarageRamp_PH as finished
+[2017.05.25-03.00.05:428][968]LogTemp:Display: Marking material as finished 0x00000255F315B380
+[2017.05.25-03.00.05:483][973]LogTemp:Display: Finished compile of shader map 0x000002559B7F7580
+[2017.05.25-03.00.05:483][973]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x000002559B7F7580, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.25-03.00.05:483][973]LogTemp:Display: Marking material as finished 0x00000255A5943700
+[2017.05.25-03.00.17:643][330]LogMaterial: Missing cached shader map for material GarageRamp_PH, compiling. 
+[2017.05.25-03.00.17:644][330]LogTemp:Display: Added material ShaderMap 0x00000255F5C90F00 with Material 0x00000255F315B380 to ShaderMapsBeingCompiled
+[2017.05.25-03.00.17:651][330]LogTemp:Display: Kicking off shader compilation for GarageRamp_PH, GameThreadShaderMap 0x00000255F5C90F00
+[2017.05.25-03.00.17:651][330]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.25-03.00.17:653][330]LogMaterial: Missing cached shader map for material GarageRamp_PH, compiling. 
+[2017.05.25-03.00.17:653][330]LogTemp:Display: Added material ShaderMap 0x00000255A5D42B00 with Material 0x00000255F315B380 to ShaderMapsBeingCompiled
+[2017.05.25-03.00.17:660][330]LogTemp:Display: Kicking off shader compilation for GarageRamp_PH, GameThreadShaderMap 0x00000255A5D42B00
+[2017.05.25-03.00.17:660][330]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.25-03.00.18:283][385]LogTemp:Display: Finished compile of shader map 0x00000255A5D42B00
+[2017.05.25-03.00.18:283][385]LogTemp:Display: Shader map GarageRamp_PH complete, GameThreadShaderMap 0x00000255A5D42B00, marking material GarageRamp_PH as finished
+[2017.05.25-03.00.18:283][385]LogTemp:Display: Marking material as finished 0x00000255F315B380
+[2017.05.25-03.00.21:089][707]LogMaterial: Missing cached shader map for material GarageRamp_PH, compiling. 
+[2017.05.25-03.00.21:090][707]LogTemp:Display: Added material ShaderMap 0x00000255809A6080 with Material 0x00000255F315B380 to ShaderMapsBeingCompiled
+[2017.05.25-03.00.21:096][707]LogTemp:Display: Kicking off shader compilation for GarageRamp_PH, GameThreadShaderMap 0x00000255809A6080
+[2017.05.25-03.00.21:097][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.25-03.00.21:728][765]LogTemp:Display: Finished compile of shader map 0x00000255809A6080
+[2017.05.25-03.00.21:728][765]LogTemp:Display: Shader map GarageRamp_PH complete, GameThreadShaderMap 0x00000255809A6080, marking material GarageRamp_PH as finished
+[2017.05.25-03.00.21:728][765]LogTemp:Display: Marking material as finished 0x00000255F315B380
+[2017.05.25-03.00.24:697][114]LogMaterial: Missing cached shader map for material GarageRamp_PH, compiling. 
+[2017.05.25-03.00.24:697][114]LogTemp:Display: Added material ShaderMap 0x00000255A5B9B580 with Material 0x00000255F315B380 to ShaderMapsBeingCompiled
+[2017.05.25-03.00.24:705][114]LogTemp:Display: Kicking off shader compilation for GarageRamp_PH, GameThreadShaderMap 0x00000255A5B9B580
+[2017.05.25-03.00.24:705][114]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.25-03.00.25:323][171]LogTemp:Display: Finished compile of shader map 0x00000255A5B9B580
+[2017.05.25-03.00.25:323][171]LogTemp:Display: Shader map GarageRamp_PH complete, GameThreadShaderMap 0x00000255A5B9B580, marking material GarageRamp_PH as finished
+[2017.05.25-03.00.25:323][171]LogTemp:Display: Marking material as finished 0x00000255F315B380
+[2017.05.25-03.00.29:650][658]LogMaterialEditor: Saving and Compiling material GarageRamp_PH
+[2017.05.25-03.00.30:088][658]LogMaterial: Missing cached shader map for material GarageRamp_PH, compiling. 
+[2017.05.25-03.00.30:089][658]LogTemp:Display: Added material ShaderMap 0x00000255A5B9B900 with Material 0x00000255F315B380 to ShaderMapsBeingCompiled
+[2017.05.25-03.00.30:104][658]LogTemp:Display: Kicking off shader compilation for GarageRamp_PH, GameThreadShaderMap 0x00000255A5B9B900
+[2017.05.25-03.00.30:104][658]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.25-03.00.30:125][658]LogMaterial: Missing cached shader map for material GarageRamp_PH, compiling. 
+[2017.05.25-03.00.30:125][658]LogTemp:Display: Added material ShaderMap 0x0000025604D1D600 with Material 0x0000025587E2E800 to ShaderMapsBeingCompiled
+[2017.05.25-03.00.30:140][658]LogTemp:Display: Kicking off shader compilation for GarageRamp_PH, GameThreadShaderMap 0x0000025604D1D600
+[2017.05.25-03.00.30:142][658]LogMaterial: Missing cached shader map for material GarageRamp_PH, compiling. 
+[2017.05.25-03.00.30:143][658]LogTemp:Display: Added material ShaderMap 0x000002558147A400 with Material 0x0000025587E2E800 to ShaderMapsBeingCompiled
+[2017.05.25-03.00.30:158][658]LogTemp:Display: Kicking off shader compilation for GarageRamp_PH, GameThreadShaderMap 0x000002558147A400
+[2017.05.25-03.00.30:161][658]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.25-03.00.30:176][658]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GarageRamp_PH, compiling. 
+[2017.05.25-03.00.30:177][658]LogTemp:Display: Added material ShaderMap 0x0000025582FF0800 with Material 0x00000255C8522800 to ShaderMapsBeingCompiled
+[2017.05.25-03.00.30:652][658]LogTemp:Display: Finished compile of shader map 0x0000025582FF0800
+[2017.05.25-03.00.30:652][658]LogTemp:Display: Shader map FDebugViewModeMaterialProxy GarageRamp_PH complete, GameThreadShaderMap 0x0000025582FF0800, marking material FDebugViewModeMaterialProxy GarageRamp_PH as finished
+[2017.05.25-03.00.30:652][658]LogTemp:Display: Marking material as finished 0x00000255C8522800
+[2017.05.25-03.00.30:655][658]TextureStreamingBuild:Display: Compiling optional shaders took 0.483 seconds.
+[2017.05.25-03.00.31:748][658]LogTemp:Display: Finished compile of shader map 0x000002558147A400
+[2017.05.25-03.00.31:748][658]LogTemp:Display: Shader map GarageRamp_PH complete, GameThreadShaderMap 0x000002558147A400, marking material GarageRamp_PH as finished
+[2017.05.25-03.00.31:748][658]LogTemp:Display: Marking material as finished 0x0000025587E2E800
+[2017.05.25-03.00.31:753][658]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.25-03.00.31:755][658]LogTemp:Display: Finished compile of shader map 0x00000255A5B9B900
+[2017.05.25-03.00.31:755][658]LogTemp:Display: Shader map GarageRamp_PH complete, GameThreadShaderMap 0x00000255A5B9B900, marking material GarageRamp_PH as finished
+[2017.05.25-03.00.31:755][658]LogTemp:Display: Marking material as finished 0x00000255F315B380
+[2017.05.25-03.00.31:783][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/K_Buildings01/GarageRamp_PH" FILE="C:/Users/David/Desktop/last transition minimap 2/Content/Assets/K_Buildings01/GarageRamp_PH.uasset" SILENT=true
+[2017.05.25-03.00.31:797][658]LogSavePackage: Save=13.07ms
+[2017.05.25-03.00.31:797][658]LogSavePackage: Moving 'C:/Users/David/Desktop/last transition minimap 2/Saved/GarageRamp_PH75B7486E4846163049C4368B11C27FD3.tmp' to 'C:/Users/David/Desktop/last transition minimap 2/Content/Assets/K_Buildings01/GarageRamp_PH.uasset'
+[2017.05.25-03.00.31:799][658]LogSavePackage:Display: Finished SavePackage C:/Users/David/Desktop/last transition minimap 2/Content/Assets/K_Buildings01/GarageRamp_PH.uasset
+[2017.05.25-03.00.33:410][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Garage_Ramp)
+[2017.05.25-03.00.52:636][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/K_Buildings01/SM_Garage_Ramp" FILE="C:/Users/David/Desktop/last transition minimap 2/Content/Assets/K_Buildings01/SM_Garage_Ramp.uasset" SILENT=true
+[2017.05.25-03.00.52:649][578]LogSavePackage: Save=10.37ms
+[2017.05.25-03.00.52:649][578]LogSavePackage: Moving 'C:/Users/David/Desktop/last transition minimap 2/Saved/SM_Garage_Ramp9C78842A42870C7B0EDAF5A9A08A9FF0.tmp' to 'C:/Users/David/Desktop/last transition minimap 2/Content/Assets/K_Buildings01/SM_Garage_Ramp.uasset'
+[2017.05.25-03.00.52:651][578]LogSavePackage:Display: Finished SavePackage C:/Users/David/Desktop/last transition minimap 2/Content/Assets/K_Buildings01/SM_Garage_Ramp.uasset
+[2017.05.25-03.00.57:958][161]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-03.00.57:967][161]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-03.00.57:967][161]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-03.00.57:967][161]PIE: New page: PIE session: map_kayla_blockout (May 24, 2017, 1:00:57 PM)
+[2017.05.25-03.00.57:967][161]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_map_kayla_blockout
+[2017.05.25-03.00.57:996][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029234s)
+[2017.05.25-03.00.57:997][161]LogAIModule: Creating AISystem for world map_kayla_blockout
+[2017.05.25-03.00.57:997][161]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2017.05.25-03.00.57:997][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map_kayla_blockout.map_kayla_blockout to /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout (0.030211s)
+[2017.05.25-03.00.58:009][161]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.25-03.00.58:032][161]LogInit: FAudioDevice initialized.
+[2017.05.25-03.00.58:064][161]LogLoad: Game class is 'GM_Main_C'
+[2017.05.25-03.00.58:077][161]LogWorld: Bringing World /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout up for play (max tick rate 0) at 2017.05.24-20.00.58
+[2017.05.25-03.00.58:078][161]LogWorld: Bringing up level for play took: 0.009709
+[2017.05.25-03.00.58:078][161]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.05.25-03.00.58:080][161]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_map_kayla_blockout -0.677
+[2017.05.25-03.00.58:080][161]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-03.01.14:356][108]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-03.01.14:415][108]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-03.01.15:683][252]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-03.01.15:692][252]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-03.01.15:692][252]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-03.01.15:692][252]PIE: New page: PIE session: map_kayla_blockout (May 24, 2017, 1:01:15 PM)
+[2017.05.25-03.01.15:692][252]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_map_kayla_blockout
+[2017.05.25-03.01.15:720][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027998s)
+[2017.05.25-03.01.15:721][252]LogAIModule: Creating AISystem for world map_kayla_blockout
+[2017.05.25-03.01.15:721][252]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2017.05.25-03.01.15:721][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map_kayla_blockout.map_kayla_blockout to /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout (0.028949s)
+[2017.05.25-03.01.15:734][252]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.25-03.01.15:758][252]LogInit: FAudioDevice initialized.
+[2017.05.25-03.01.15:787][252]LogLoad: Game class is 'GM_Main_C'
+[2017.05.25-03.01.15:801][252]LogWorld: Bringing World /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout up for play (max tick rate 0) at 2017.05.24-20.01.15
+[2017.05.25-03.01.15:801][252]LogWorld: Bringing up level for play took: 0.009580
+[2017.05.25-03.01.15:802][252]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.05.25-03.01.15:804][252]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_map_kayla_blockout 1.048
+[2017.05.25-03.01.15:805][252]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-03.01.33:131][325]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-03.01.33:191][325]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-03.01.46:241][875]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-03.01.46:250][875]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-03.01.46:250][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-03.01.46:250][875]PIE: New page: PIE session: map_kayla_blockout (May 24, 2017, 1:01:46 PM)
+[2017.05.25-03.01.46:250][875]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_map_kayla_blockout
+[2017.05.25-03.01.46:279][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029099s)
+[2017.05.25-03.01.46:280][875]LogAIModule: Creating AISystem for world map_kayla_blockout
+[2017.05.25-03.01.46:280][875]LogPlayLevel: PIE: World Init took: (0.000878s)
+[2017.05.25-03.01.46:280][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map_kayla_blockout.map_kayla_blockout to /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout (0.030323s)
+[2017.05.25-03.01.46:293][875]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.25-03.01.46:316][875]LogInit: FAudioDevice initialized.
+[2017.05.25-03.01.46:348][875]LogLoad: Game class is 'GM_Main_C'
+[2017.05.25-03.01.46:362][875]LogWorld: Bringing World /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout up for play (max tick rate 0) at 2017.05.24-20.01.46
+[2017.05.25-03.01.46:363][875]LogWorld: Bringing up level for play took: 0.010425
+[2017.05.25-03.01.46:363][875]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.05.25-03.01.46:365][875]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_map_kayla_blockout -0.392
+[2017.05.25-03.01.46:365][875]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-03.01.47:572][  8]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-03.01.47:629][  8]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-03.02.41:349][265]LogSavePackage: Save=371.99ms
+[2017.05.25-03.02.41:349][265]LogSavePackage: Moving 'C:/Users/David/Desktop/last transition minimap 2/Saved/map_kayla_blockout_Auto3ECBE10E148B4F6321227F5898C75B9CC.tmp' to 'C:/Users/David/Desktop/last transition minimap 2/Saved/Autosaves/Game/Maps/map_kayla_blockout_Auto3.umap'
+[2017.05.25-03.02.41:350][265]LogSavePackage:Display: Finished SavePackage C:/Users/David/Desktop/last transition minimap 2/Saved/Autosaves/Game/Maps/map_kayla_blockout_Auto3.umap
+[2017.05.25-03.02.41:352][265]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/map_kayla_blockout' took 0.392
+[2017.05.25-03.02.41:352][265]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.392
+[2017.05.25-06.55.40:209][782]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.25-06.55.46:627][522]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-06.55.46:636][522]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-06.55.46:636][522]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-06.55.46:636][522]PIE: New page: PIE session: map_kayla_blockout (May 24, 2017, 4:55:46 PM)
+[2017.05.25-06.55.46:636][522]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_map_kayla_blockout
+[2017.05.25-06.55.46:668][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031648s)
+[2017.05.25-06.55.46:668][522]LogAIModule: Creating AISystem for world map_kayla_blockout
+[2017.05.25-06.55.46:669][522]LogPlayLevel: PIE: World Init took: (0.000891s)
+[2017.05.25-06.55.46:669][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map_kayla_blockout.map_kayla_blockout to /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout (0.032926s)
+[2017.05.25-06.55.46:681][522]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.25-06.55.46:704][522]LogInit: FAudioDevice initialized.
+[2017.05.25-06.55.46:736][522]LogLoad: Game class is 'GM_Main_C'
+[2017.05.25-06.55.46:752][522]LogWorld: Bringing World /Game/Maps/UEDPIE_0_map_kayla_blockout.map_kayla_blockout up for play (max tick rate 0) at 2017.05.24-23.55.46
+[2017.05.25-06.55.46:752][522]LogWorld: Bringing up level for play took: 0.009888
+[2017.05.25-06.55.46:753][522]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.05.25-06.55.46:754][522]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_map_kayla_blockout -0.002
+[2017.05.25-06.55.46:755][522]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-06.56.34:473][242]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-06.56.34:518][242]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout' with GeneratedClass '/Game/Maps/map_kayla_blockout.map_kayla_blockout_C' with ClassGeneratedBy '/Game/Maps/map_kayla_blockout.map_kayla_blockout:PersistentLevel.map_kayla_blockout'
+[2017.05.25-06.57.58:832][875]Cmd: SELECT NONE
+[2017.05.25-17.10.59:166][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/map_kayla_blockout" FILE="C:/Users/David/Desktop/last transition minimap 2/Content/Maps/map_kayla_blockout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.25-17.10.59:554][427]LogSavePackage: Save=372.27ms
+[2017.05.25-17.10.59:554][427]LogSavePackage: Moving 'C:/Users/David/Desktop/last transition minimap 2/Saved/map_kayla_blockoutF733FE9C4F92455D0C63B0A88D06E1CB.tmp' to 'C:/Users/David/Desktop/last transition minimap 2/Content/Maps/map_kayla_blockout.umap'
+[2017.05.25-17.10.59:560][427]LogSavePackage:Display: Finished SavePackage C:/Users/David/Desktop/last transition minimap 2/Content/Maps/map_kayla_blockout.umap
+[2017.05.25-17.10.59:605][427]LogFileHelpers: Saving map 'map_kayla_blockout' took 1.460
+[2017.05.25-17.11.00:406][522]LogTemp:Display: Removed shader map 0x00000255C660FC80 from material 0x00000255F315B380
+[2017.05.25-17.11.00:406][522]LogTemp:Display: Removed shader map 0x00000255F5C90F00 from material 0x00000255F315B380
+[2017.05.25-17.11.00:627][523]Cmd: QUIT_EDITOR
+[2017.05.25-17.11.01:468][523]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.25-17.11.01:490][523]LogExit: Preparing to exit.
+[2017.05.25-17.11.02:028][523]LogExit: Editor shut down
+[2017.05.25-17.11.02:029][523]LogExit: Transaction tracking system shut down
+[2017.05.25-17.11.02:073][523]LogTemp:Display: Removed shader map 0x0000025604D1D600 from material 0x0000025587E2E800
+[2017.05.25-17.11.02:128][523]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.25-17.11.02:128][523]LogExit: Object subsystem successfully closed.
+[2017.05.25-17.11.02:216][523]LogD3D11RHI: Shutdown
+[2017.05.25-17.11.02:216][523]LogD3D11RHI: CleanupD3DDevice
+[2017.05.25-17.11.02:295][523]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.25-17.11.02:316][523]LogModuleManager: Shutting down and abandoning module MaterialEditor (508)
+[2017.05.25-17.11.02:316][523]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (506)
+[2017.05.25-17.11.02:316][523]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (504)
+[2017.05.25-17.11.02:316][523]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (502)
+[2017.05.25-17.11.02:316][523]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2017.05.25-17.11.02:316][523]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2017.05.25-17.11.02:316][523]LogModuleManager: Shutting down and abandoning module SceneOutliner (496)
+[2017.05.25-17.11.02:316][523]LogModuleManager: Shutting down and abandoning module AddContentDialog (494)
+[2017.05.25-17.11.02:316][523]LogDirectoryWatcher: A directory notification for 'D:/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.25-17.11.02:317][523]LogModuleManager: Shutting down and abandoning module WidgetCarousel (493)
+[2017.05.25-17.11.02:317][523]LogModuleManager: Shutting down and abandoning module EditorWidgets (490)
+[2017.05.25-17.11.02:317][523]LogModuleManager: Shutting down and abandoning module CollectionManager (488)
+[2017.05.25-17.11.02:317][523]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Desktop/last transition minimap 2/Content/Collections/' was aborted.
+[2017.05.25-17.11.02:317][523]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Desktop/last transition minimap 2/Content/Developers/David/Collections/' was aborted.
+[2017.05.25-17.11.02:317][523]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Desktop/last transition minimap 2/Saved/Collections/' was aborted.
+[2017.05.25-17.11.02:317][523]LogModuleManager: Shutting down and abandoning module StatsViewer (486)
+[2017.05.25-17.11.02:317][523]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2017.05.25-17.11.02:317][523]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2017.05.25-17.11.02:317][523]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2017.05.25-17.11.02:317][523]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2017.05.25-17.11.02:317][523]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module Media (445)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2017.05.25-17.11.02:318][523]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2017.05.25-17.11.02:920][523]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2017.05.25-17.11.02:961][523]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2017.05.25-17.11.02:961][523]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2017.05.25-17.11.02:961][523]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2017.05.25-17.11.02:961][523]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2017.05.25-17.11.02:961][523]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2017.05.25-17.11.02:961][523]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2017.05.25-17.11.02:961][523]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2017.05.25-17.11.02:961][523]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2017.05.25-17.11.02:961][523]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2017.05.25-17.11.02:962][523]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2017.05.25-17.11.02:962][523]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2017.05.25-17.11.02:962][523]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2017.05.25-17.11.02:962][523]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2017.05.25-17.11.02:962][523]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2017.05.25-17.11.02:962][523]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2017.05.25-17.11.02:962][523]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2017.05.25-17.11.02:962][523]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2017.05.25-17.11.02:962][523]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2017.05.25-17.11.02:962][523]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2017.05.25-17.11.02:962][523]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2017.05.25-17.11.02:962][523]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2017.05.25-17.11.02:962][523]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2017.05.25-17.11.02:962][523]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2017.05.25-17.11.02:962][523]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2017.05.25-17.11.02:962][523]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2017.05.25-17.11.02:962][523]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2017.05.25-17.11.02:962][523]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module RawInput (280)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.05.25-17.11.02:987][523]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.05.25-17.11.02:988][523]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.05.25-17.11.02:988][523]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.05.25-17.11.02:988][523]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.05.25-17.11.02:988][523]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.05.25-17.11.02:989][523]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.05.25-17.11.02:989][523]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.05.25-17.11.02:989][523]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.05.25-17.11.02:989][523]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.05.25-17.11.03:089][523]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.25-17.11.03:190][523]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.25-17.11.03:192][523]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.25-17.11.03:192][523]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.25-17.11.03:192][523]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.25-17.11.03:192][523]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.25-17.11.03:192][523]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.25-17.11.03:192][523]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.25-17.11.03:306][523]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.25-17.11.03:306][523]LogDirectoryWatcher: A directory notification for 'C:/Users/David/Desktop/last transition minimap 2/Content/' was aborted.
+[2017.05.25-17.11.03:306][523]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.25-17.11.03:307][523]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.25-17.11.03:307][523]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.25-17.11.03:307][523]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.25-17.11.03:307][523]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.25-17.11.03:307][523]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.25-17.11.03:307][523]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.25-17.11.03:307][523]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.25-17.11.03:307][523]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.25-17.11.03:307][523]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.25-17.11.03:350][523]LogDerivedDataCache: Shutdown
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.25-17.11.03:350][523]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.25-17.11.03:351][523]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.25-17.11.03:351][523]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.25-17.11.03:351][523]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.25-17.11.03:351][523]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4AD4E298-4CC0-CCD9-3391-A78CC29CC765%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=8575500d426ae8fbcabf558e3d7af1f8%7C341b3357ac2f4dc9a4c56296d19833d9%7Cc5b497af-8a36-42dc-8f2d-f33e02cf26e6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.25-17.11.03:373][523]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.25-17.11.03:375][523]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.25-17.11.03:375][523]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.25-17.11.03:375][523]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.25-17.11.03:375][523]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.25-17.11.03:375][523]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.25-17.11.03:376][523]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.25-17.11.03:376][523]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.25-17.11.03:376][523]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.25-17.11.03:376][523]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.25-17.11.03:376][523]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.25-17.11.03:376][523]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.25-17.11.03:376][523]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.25-17.11.03:376][523]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.25-17.11.03:376][523]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.25-17.11.03:376][523]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.25-17.11.03:377][523]LogExit: Exiting.
+[2017.05.25-17.11.03:386][523]Log file closed, 05/25/17 10:11:03
